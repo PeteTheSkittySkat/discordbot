@@ -29,7 +29,7 @@ module.exports = {
                 // Basic embed
                 var embed = new MessageEmbed()
                     .setColor('#808080')
-                    .setTitle('🏓 Latency')
+                    .setTitle('🏓 Pong!')
                     .addFields(
                         { name: 'Bot Latency', value: '```ini\n' + '[' + ping + 'ms' + ']' + '\n```', inline: true },
                         { name: 'API Latency', value: '```ini\n' + '[' + Math.round(client.ws.ping) + 'ms' + ']' + '\n```', inline: true },
